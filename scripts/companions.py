@@ -8,7 +8,7 @@ files_path = "../multitifs.txt"
 pat = re.compile(r".+(?P<dataset_name>DS000\d).+/(?P<channel>CH000\d)/(?P<image_name>DR000\d)/.+(?P<timepoint>TP\d{4}).+")
 root = "/uod/idr/filesets/idr0000-Strobl/Strobl2014A/"
 
-order = "XYCTZ"
+order = "XYCZT"
 img_x = 600
 img_y = 1000
 size_z = 150
