@@ -19,16 +19,16 @@ columns:
     clientname: Transgenic Line
     include: yes
 
-  - name: Experimental Condition [Genotype]
-    clientname: Genotype
-    include: yes
-
   - name: Comment [Image File Type]
     clientname: Image File Type
     include: yes
 
   - name: Comment [XY Pixel Size]
     clientname: XY Pixel Size
+    include: yes
+
+  - name: Channels
+    clientname: Channels
     include: yes
 
 
